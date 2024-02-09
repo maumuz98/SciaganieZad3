@@ -17,7 +17,7 @@ import numpy as np
 wielowatkowo = 1    #0 - nie; 1 - tak
 gauss = 0           #0 - nie; 1 - tak
 
-page_url = "https://if.pw.edu.pl/~mrow/dyd/wdprir/"
+page_url = "https://"
 page = requests.get(page_url)
 soup = BeautifulSoup(page.content, 'html.parser')
 
